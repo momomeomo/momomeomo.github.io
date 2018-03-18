@@ -1,0 +1,81 @@
+a:link {
+	color: lightblue;
+	text-decoration: none;
+}
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+body {
+	font-family: Georgia;
+	background-image: url('6.jpg');
+	background-color: #1C1C1A;
+	background-repeat: no-repeat;
+}
+button {
+	color: black;
+	background-color: cyan;
+	width: 150px;
+	font-family: Arial;
+}
+p {
+	padding-right: 25px;
+	padding-left: 50px;
+	font-family: Georgia;
+	color: white;
+}
+ol {
+	padding-left: 70px;
+	font-family: Georgia;
+	color: white;
+}
+h1 {
+	text-align: center;
+	border-bottom: solid grey;
+	padding: 0;
+	font-family: Arial;
+	color: white;
+}
+h2 {
+	padding-left: 50px;
+	font-family: Georgia;
+	color: white;
+}
+h3 {
+	padding-left: 50px;
+	font-family: Georgia;
+	color: white;
+}
+h4 {
+	color: white;
+}
+h5 {
+	padding: 0;
+	padding-left: 13px;
+	padding-bottom: 5px;
+	margin: 0;
+	font-family: Georgia;
+	color: white;
+}
+.Aloe {
+	padding-left: 50px;
+}
+h6 {
+	background-color: yellow;
+	max-width: 320px;
+	margin: 0;
+	font-family: Arial;
+	color: black;
+}
+li {
+	color: white;
+	padding-left: 30px;
+}
+.lif {
+	padding-left: 60px;
+	font-family: Georgia;
+	color: white;
+}
+.map {
+	padding-left: 27px;
+}
