@@ -2,6 +2,14 @@
 <html>
 <head>
 <style>
+.hidden {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.hidden:hover {
+  opacity: 1;
+}
 a:link {
 	color: lightblue;
 	text-decoration: none;
@@ -33,9 +41,16 @@ ol {
 	font-family: Georgia;
 	color: white;
 }
-h1 {
+.title {
 	text-align: center;
 	border-bottom: solid grey;
+	padding: 0;
+	font-family: Arial;
+	color: white;
+}
+h1 {
+	text-align: center;
+	margin: 0;
 	padding: 0;
 	font-family: Arial;
 	color: white;
@@ -91,7 +106,8 @@ li {
 	<font color="red">Audio file unable to play...</font>
 		</audio>
 <h5 class=Aloe>Aloe Blacc - I Need A Dollar</h5>
-<h1><strong>Welcome to my site</strong></h1>
+<h1 class=title><strong>Welcome to my site</strong></h1>
+<h1><small>Currently serving as my digital portfolio</small></h1>
 	<h3>Introduction</h3>
 		<p>My name is Geoffrey Weiss I've been Doing coding as a hobby and enjoyed it and wanted to attempt a career in the field, originally started learning with the only goal to fork a github discord python bot to make my own with similar functionality but i put the project on hiatus for now <small>(eventually i plan to finish it and will list it as an example here)</small> but kept doing coding for fun.</p>
 			<li class=lif>Highest education: High school</li>
@@ -108,7 +124,7 @@ li {
 					<ol>Completed the Codecademy's "<a href="https://www.codecademy.com/learn/learn-the-command-line" target="_blank"><i>Learn Command Line</i></a>" course</ol>
 				</li>
 <br>
-				<li>Self coded this entire site, HTML and CSS <small>(largest project by a large margin)</small></li>
+				<li>Self coded this entire site, HTML, CSS, and GIT <small>(largest project by a large margin)</small></li>
 				<li>Github usage experience: <a href="https://github.com/momomeomo" target="_blank"><i>My Github</i></a>
 				<li>Jekyll and github pages usage experience</li>
 				<li><button onclick="ButtonClick()")>Click the big button!!!</button></li>
@@ -118,16 +134,13 @@ li {
 }
 		</script>
 					<noscript><i><font color="red">Your browser does not support JavaScript...</font></i></noscript>
-<h4>
-	<li>Currently learning more about JavaScript and python for additional scripting ability in web, app, and game development.</li>
-</h4>
 			<br>
 		<br>
 			<br>
 		<br>
 			<br>
 <h6>*Non-human language proficiency, languages that i can comfortably read and write, regularly updated and subject to change without given notice.</h6>
-<img src="4.png" alt="majestic thinking frog man">
+<img class=hidden src="4.png" alt="majestic thinking frog man">
 <p>Contact Options listed in best way to contact me:</p>
 	<li>Discord: momomeomo#3167</li>
 </body>
