@@ -18,12 +18,13 @@ body {
     color: white;
 }
 table {
+	table-layout: fixed;
     border-collapse: collapse;
-    background-color: black;
+    background-color: #3d3d3d;
 }
 
 td, th {
-    border: 3px solid #dddddd;
+    border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
 }
@@ -33,40 +34,49 @@ td, th {
       h1 {
                 text-align: center;
             }
+			.size {
+				font-size: 21px;
+			}
             .coinmarketcap-currency-widget {
                 background-color: black;
-				float: left;
             }
 		h5 {
+			font-size: 14px;
 			font-family: Arial;
 			padding: 0;
 			margin: 0;
 		}
-        </style>
+.lite {
+	background-color: black;
+	table-layout: auto;
+	
+}
+		</style>
 <!-- embedded CSS above - - - - HTML below -->
         <meta charset="UTF-8"/>
   <title>Crypto Currency</title>
     </head>
 <body>
+<strong>
     <h1>
         Crypto currency assistance
     </h1>
     <h3>
         Follow these steps below, feel free to ask help with them
     </h3>
-    <table style="width:100%">
-  <tr>
-    <th>Coinbase</th>
-    <th>Binance</th> 
-  </tr>
-  <tr>
-      <td>First create a coinbase account with my referral here <a href="https://www.coinbase.com/join/5a1e4820e97a0500c8a215bd" target="_blank"><i>Here</i></a></td>
-      <td>Next go to my referral link for binance <a href="https://www.binance.com/?ref=13896265" target="_blank"><i>here</i></a> and create an account</td>
+<table align="center" style="width:100%">
+	<tr>
+		<th class=size><u>Coinbase</u></th>
+		<th class=size><strong><u>Binance</u></strong></th> 
+	</tr>
+		<tr>
+			<td>First create a coinbase account with my referral here <a href="https://www.coinbase.com/join/5a1e4820e97a0500c8a215bd" target="_blank"><i>Here</i></a></td>
+			<td>Next go to my referral link for binance <a href="https://www.binance.com/?ref=13896265" target="_blank"><i>here</i></a> and create an account</td>
         </tr>
-			<tr>
+		<tr>
 				<td>Fill out coinbase's KYC information, will require a lot of personal information</td>
 				<td><strong>do not fill out binance's KYC information</strong></td>
-			</tr>
+		</tr>
         <tr>
             <td>Coinbase is where you depsoit fiat into litecoin</td>
             <td>Binance is where you exchange your litecoin into alt-coins</td>
@@ -75,19 +85,28 @@ td, th {
             <td>Coinbase will not be used besides for fiat exchanges</td>
             <td>Binance will be the main crypto exchange</td>
         </tr>
-    </table>
-    <table>
+ </table>
+ <table>
         <th>
         After you've created your accounts ill give you advice on where to put your investments message me for additional information, information includes: White paper research information, Underlying technology information, TAs, and Investingment guiding
         </th>
     </table>
+</strong>
     
         <br>
-		
-<h5><strong><mark>The Currency you will use to exchange fiat into crypto</mark></strong></h5>
-<h5><strong><mark>It has a low transfer fees with a high speed</mark></strong></h5>
+<table class=lite align="center">	
+		<tr>
+			<td>
+<h5><strong>The currency you will use to exchange fiat into crypto</strong></h5>
+<h5><strong>It has a low transfer fees with a high speed</strong></h5>
 	
 	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="2" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div><noscript><i><font color="red">Your browser does not support JavaScript...</font></i></noscript>
 	
+	</td>
+		<tr>
+</table>
+
+
+
 </body>
 </html>
