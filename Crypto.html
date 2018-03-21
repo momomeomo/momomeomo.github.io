@@ -3,7 +3,7 @@
     <head>
         <style>
 a:link {
-	color: blue;
+	color: green;
 	text-decoration: none;
 }
 a:visited {
@@ -21,6 +21,7 @@ table {
 	table-layout: fixed;
     border-collapse: collapse;
     background-color: #3d3d3d;
+	margin: auto;
 }
 
 td, th {
@@ -51,6 +52,25 @@ td, th {
 	table-layout: auto;
 	
 }
+.hive {
+background-color: black;
+}
+.section {
+	margin: 0 0 4em 0;
+}
+.image-box-center {
+	text-align: center;
+	margin: 15px 0 15px 0;
+}
+div.caption {
+	font-style: italic;
+	color: green;
+}
+#overview {
+border-top: solid white 3px;
+text-align: center;
+}
+
 		</style>
 <!-- embedded CSS above - - - - HTML below -->
         <meta charset="UTF-8"/>
@@ -106,7 +126,42 @@ td, th {
 		<tr>
 </table>
 
+<!-- CoinHive -->
 
+<div class="section">
+	<h2 id="overview">Simple Miner UI</h2>
+	<p>
+		This page explains how to display and customize the Coinhive Miner
+		User Interface on your page.
+	</p>
+	<p>
+		The Simple Miner UI is loaded as an IFrame into a <code>&lt;div&gt;</code>
+		element on your page. You can control the display size of the miner,
+		as well as the colors and branding.
+	</p>
+	<table>
+		<td class=hive>
+<div class="image-box-center">
+	<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+		<div class="coinhive-miner"
+			style="width: 100%; height: 94px"
+			data-key="u5Cxn17qNBllNwUpiEbPhvs41zio8Cws"
+			data-autostart="false"
+			data-background="#000"
+			data-text="#eee"
+			data-action="#0f0"
+			data-graph="#555"
+			data-whitelabel="false"
+		><em><font color="red">Please disable Adblock!</font></em></div>
+<br>
+		<div class="caption">
+			Demo of the Simple Miner UI in banner format, showing a custom
+			color scheme
+		</div>
+	</div>
+</div>
+</td>
+</table>
 
 </body>
 </html>
