@@ -1,0 +1,49 @@
+<!doctype html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: yellowgreen;
+  height: 20vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+</style>
+<body>
+  <header><strong>Neato burrito website</strong></header>
+  <div id="main">
+	My name's Alekanekelo Rex, Ceaser of Roma
+    <article>
+	<p>Some neato stuff about me:</p>
+			<li>im tall</li>
+			<li>i hate niggers</li>
+			</article>
+    <nav></nav>
+    <aside></aside>
+  </div>
+  <footer><strong>Thanks for reading</strong></footer>
+</body>
