@@ -1,10 +1,16 @@
 # momomeomo.github.io
 <p>
-  Personal website or digital portfolio, not sure yet but expect a lot of different random stuff, currently holds information about my web development services and my crypto.
+	Personal website and digital portfolio
 </p>
 
-<br>
+	<br>
 
 <p>
-  --Practice web development project--
+	old and currently unused webpages labeled with a large red archaic header
+</p>
+
+	<br>
+
+<p>
+	--Practice web development project--
 </p>
