@@ -109,10 +109,25 @@ float: left;
 }
 
 .Buttons {
-	color: black;
-	<!--height: 1.5em;-->
-	<!--width: 7em;-->
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; <!-- Safari -->
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button1:hover {background-color: #e7e7e7;}
 
 .Buttons a:link {
 	color: blue;
@@ -131,7 +146,7 @@ float: left;
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<audio controls> <!-- autoplay -->
+	<audio controls <!-- autoplay --> >
 		<source src="music/Aloe Blacc - I Need A Dollar.mp3" type="audio/mpeg">
 			<font color="red">Audio file unable to play...</font>
 				</audio>
@@ -141,7 +156,9 @@ float: left;
 <h1 class=title><strong>Welcome to my personal website</strong></h1>
 	<h1>Also serving as a digital portfolio</h1>
 
-<button type="button" class="Buttons" style="width:5%; height:1.7em;"><a href="Referrals.html" target="_blank"><strong>Referrals</strong></a></button> <button type="button" class="Buttons" style="width:5%; height:1.7em;"><a href="https://github.com/momomeomo" target="_blank"><strong>Github</strong></a></button>
+<button type="button" class="Buttons button1" style="width:5%; height:1.7em;" onclick='location.href="Referrals.html"'><strong>Referrals</strong></a></button>
+
+<button type="button" class="Buttons button1" style="width:5%; height:1.7em;" onclick='location.href="https://github.com/momomeomo"'><strong>Github</strong></a></button>
 		
 	<h3>Introduction</h3>
 		<p>My name is momo I've been Doing coding as a hobby and enjoyed it and wanted to attempt a career in the field, originally started learning with the only goal to fork a github discord python bot to make my own with tailored functionality but i put the project on hiatus for now, but kept doing coding for fun.</p>
