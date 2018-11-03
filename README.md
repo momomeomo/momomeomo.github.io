@@ -3,13 +3,13 @@
 	Personal website and digital portfolio
 </p>
 
-	<br>
+<br>
 
 <p>
 	old and currently unused webpages labeled with a large red archaic header
 </p>
 
-	<br>
+<br>
 
 <p>
 	--Practice web development project--
