@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: momomeomo.github.io
+Token: 06d079cadc5ed4debe28f5a9bd300730f9a591acd0799ca200f08152640a6c24
