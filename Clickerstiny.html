@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+		body {
+			background-color: beige;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			font-size: 1.2em;
+		}
+
+		img {
+			display: block;
+		}
+
+		button {
+			font-size: 1.2em;
+		}
+
+	</style>
+<title>omni clicker</title>
+</head>
+<body>
+	<p>Debates won: <input type="text" value="" id="myInput"></p>
+<script>
+	var Counter = 0;
+
+	// 1. Create the button
+	var button = document.createElement("button");
+	button.innerHTML = "Debate";
+
+	// 2. Append somewhere
+	var body = document.getElementsByTagName("body")[0];
+	body.appendChild(button);
+
+	// 3. Add event handler
+	button.addEventListener ("click", 
+	function() {
+		document.getElementById('myInput').value = '';
+		document.getElementById('myInput').value = Counter++;
+		if (Counter == 22) {
+			var button2 = document.createElement("button");
+			button2.innerHTML = "Buy MrMoutons";
+			var body = document.getElementsByTagName("body")[0];
+			body.appendChild(button2);
+
+			button2.addEventListener ("click", 
+			function addGoons() {
+    			var x = document.createElement("IMG");
+    			x.setAttribute("src", "img/4.png");
+    			x.setAttribute("width", "32");
+    			x.setAttribute("height", "32");
+    			document.body.appendChild(x);
+			});
+		}
+	});
+
+</script>
+</body>
+</html>
+
+<!-- button2.addEventListener ("click", 
+function addGoons() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "4.png");
+    x.setAttribute("width", "32");
+    x.setAttribute("height", "32");
+	document.body.appendChild(x); -->
+	
