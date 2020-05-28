@@ -1,0 +1,145 @@
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 0.85em;
+		}
+	}
+a:link {
+	color: lightblue;
+	text-decoration: none;
+}
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+body {
+	font-family: Georgia;
+	background-image: url('img/6.jpg');
+	background-color: #1C1C1A;
+	background-repeat: repeat;
+	text-shadow: 1px 1px black;
+}
+.Aloe {
+	padding-left: 4.5em;
+}
+p {
+	padding-right: 1.5625em;
+	padding-left: 3.125em;
+	font-family: Georgia;
+	color: white;
+}
+ol {
+	padding-left: 4.375em;
+	font-family: Georgia;
+	color: white;
+}
+.title {
+	text-align: center;
+	border-bottom: solid grey;
+	padding: 0;
+	font-family: Arial;
+	color: white;
+}
+.subtitle {
+	text-align: center;
+	border-bottom: solid grey;
+	padding: 0;
+	font-family: Arial;
+	color: white;
+	font-size: 0.9em;
+}
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	color: white;
+}
+h2 {
+	padding-left: 2em;
+	font-family: Georgia;
+	color: white;
+}
+h3 {
+	padding-left: 2em;
+	font-family: Georgia;
+	color: white;
+}
+h4 {
+	color: white;
+}
+h5 {
+	padding: 0;
+	padding-left: 0.8125em;
+	padding-bottom: 0.3325em;
+	margin: 0;
+	font-family: Georgia;
+	color: white;
+}
+h6 {
+	background-color: yellow;
+	max-width: 20em;
+	margin: 0;
+	font-family: Arial;
+	color: black;
+	text-shadow: 0px 0px black;
+}
+li {
+	color: white;
+	padding-left: 1.875em;
+}
+.lif {
+	padding-left: 3.75em;
+	font-family: Georgia;
+	color: white;
+}
+.base {
+opacity: 0;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+.hidden4 {
+float: left;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.hidden:hover {
+  opacity: 1;
+}
+.hidden4:hover {
+  opacity: 1;
+}
+
+.Buttons {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9vw;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button1:hover {background-color: #e7e7e7;}
+
+.Buttons a:link {
+	color: blue;
+	text-shadow: 1em;
+	text-decoration: none;
+}
+.Buttons a:visited {
+	color: blue;
+	text-shadow: 1em;
+	text-decoration: none;
+}
