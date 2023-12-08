@@ -24,12 +24,12 @@ body {
 p {
 	padding-right: 1.5625em;
 	padding-left: 3.125em;
-	font-family: Georgia;
+	font-family: Arial;
 	color: white;
 }
 ol {
 	padding-left: 4.375em;
-	font-family: Georgia;
+	font-family: Arial;
 	color: white;
 }
 .title {
@@ -63,7 +63,7 @@ h2 {
 }
 h3 {
 	padding-left: 2em;
-	font-family: Georgia;
+	font-family: Arial;
 	color: white;
 }
 h4 {
